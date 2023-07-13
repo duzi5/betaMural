@@ -1,4 +1,5 @@
 MuralProfile
+
 Descrição:
 
 O MuralProfile é o meu portfólio pessoal, projetado para demonstrar minhas habilidades de desenvolvimento com React. Este projeto serve como uma vitrine das minhas habilidades técnicas, onde você pode ver várias aplicações e componentes que eu desenvolvi usando a biblioteca React.
@@ -25,4 +26,4 @@ Contato:
 
 Antonio Netto (duzi5) - 92.netto@gmail.com
 
-Link do Projeto: https://github.com/yourusername/MuralProfile
+Link do Projeto: https://github.com/duzi5/MuralProfile
