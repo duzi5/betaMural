@@ -1,3 +1,9 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.fire {
+  animation: fireAnimation 13s ease-in-out infinite;
+}
+
+@keyframes fireAnimation {
+  0% { fill: #E80000; }
+  50% { fill: #F40A0A; }
+  100% { fill: #E80000; }
+}
+
+/* Animacao de entrada */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+/* Animacao de saida */
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
 }
